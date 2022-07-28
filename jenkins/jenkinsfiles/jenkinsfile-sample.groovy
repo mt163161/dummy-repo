@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
-@Library('pipeline-library-demo')_
+@Library('pipeline-library-demo@main')_
 
 node {
     stage('Greetings') {
